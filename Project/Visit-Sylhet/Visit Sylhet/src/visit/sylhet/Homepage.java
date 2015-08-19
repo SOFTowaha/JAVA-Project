@@ -41,7 +41,7 @@ public class Homepage extends javax.swing.JFrame {
         jLabel2.setText("জেলাঃ");
 
         PlaceCombo.setFont(new java.awt.Font("Siyam Rupali", 1, 24)); // NOI18N
-        PlaceCombo.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "নির্বাচন করুন ", "পাংথুমাই", "বিছানাকান্দি", "লক্ষনছড়া", "করুমছড়া", "জাফলং", "সারিয়াঘাট", "জৈন্তাপুর", "রাতারগুল", "ভোলাগঞ্জ", "মালিনিছড়া", "লোভাছড়া", "বি টি আর আই", "লাউয়াছড়া", "মাধবকুণ্ড", "পারিকুন্ড", "হামহাম", "টাঙ্গুয়ার হাওড়", "নারায়ণতলা", "জাদুকাটা", " " }));
+        PlaceCombo.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "নির্বাচন করুন ", "পাংথুমাই", "বিছানাকান্দি", "লক্ষনছড়া", "করুমছড়া", "জাফলং", "লক্ষণছড়া", "জৈন্তাপুর", "রাতারগুল", "ভোলাগঞ্জ", "মালিনিছড়া", "লোভাছড়া", "বি টি আর আই", "লাউয়াছড়া", "মাধবকুণ্ড", "পারিকুন্ড", "হামহাম", "টাঙ্গুয়ার হাওড়", "নারায়ণতলা", "জাদুকাটা", " " }));
         PlaceCombo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 PlaceComboActionPerformed(evt);
@@ -125,6 +125,7 @@ public class Homepage extends javax.swing.JFrame {
         }
         if (ZilaCombo.getSelectedIndex() == 1) {
             PlaceCombo.setEnabled(true);
+            FinalGo.setEnabled(true);
             PlaceCombo.removeAllItems();
             PlaceCombo.addItem("পাংথুমাই");
             PlaceCombo.addItem("বিছানাকান্দি");
@@ -140,6 +141,7 @@ public class Homepage extends javax.swing.JFrame {
         }
         if (ZilaCombo.getSelectedIndex() == 2) {
             PlaceCombo.setEnabled(true);
+            FinalGo.setEnabled(true);
             PlaceCombo.removeAllItems();
             PlaceCombo.addItem("বি টি আর আই");
             PlaceCombo.addItem("লাউয়াছড়া");
@@ -149,6 +151,7 @@ public class Homepage extends javax.swing.JFrame {
         }
         if (ZilaCombo.getSelectedIndex() == 3) {
             PlaceCombo.setEnabled(true);
+            FinalGo.setEnabled(true);
             PlaceCombo.removeAllItems();
             PlaceCombo.addItem("টাঙ্গুয়ার হাওড়");
             PlaceCombo.addItem("নারায়ণতলা");
@@ -156,6 +159,7 @@ public class Homepage extends javax.swing.JFrame {
         }
         if (ZilaCombo.getSelectedIndex() == 4) {
             PlaceCombo.setEnabled(true);
+            FinalGo.setEnabled(true);
             PlaceCombo.removeAllItems();
             PlaceCombo.addItem("pore");
             PlaceCombo.addItem("aro pore");
@@ -178,6 +182,14 @@ public class Homepage extends javax.swing.JFrame {
                 bich.setVisible(true);
                 dispose();
                 break;
+ 
+            case "লক্ষণছড়া":
+                Lokkhonchora lokkho = new Lokkhonchora();
+                lokkho.setVisible(true);
+                dispose();
+                break;
+                
+                
             default:
                 System.out.println("bbbb");
         }
