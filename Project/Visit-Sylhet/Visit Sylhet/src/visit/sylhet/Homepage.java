@@ -1,14 +1,5 @@
 package visit.sylhet;
 
-import java.awt.Image;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.net.URL;
-import javax.imageio.ImageIO;
-import javax.swing.ImageIcon;
-import java.io.IOException;
-import java.net.MalformedURLException;
-
 public class Homepage extends javax.swing.JFrame {
 
     public Homepage() {
