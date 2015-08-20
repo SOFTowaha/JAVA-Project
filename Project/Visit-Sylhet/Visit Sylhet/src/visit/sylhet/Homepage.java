@@ -123,48 +123,7 @@ public class Homepage extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void PlaceComboActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PlaceComboActionPerformed
-        PlaceCombo.setFont(new java.awt.Font("Siyam Rupali", 1, 24));
-        if (ZilaCombo.getSelectedIndex() == 0) {
-            PlaceCombo.setEnabled(false);
-        }
-        if (ZilaCombo.getSelectedIndex() == 1) {
-            PlaceCombo.setEnabled(true);
-            PlaceCombo.removeAllItems();
-            PlaceCombo.addItem("পাংথুমাই");
-            PlaceCombo.addItem("বিছানাকান্দি");
-            PlaceCombo.addItem("লক্ষনছড়া");
-            PlaceCombo.addItem("করুমছড়া");
-            PlaceCombo.addItem("জাফলং");
-            PlaceCombo.addItem("সারিয়াঘাট");
-            PlaceCombo.addItem("জৈন্তাপুর");
-            PlaceCombo.addItem("রাতারগুল");
-            PlaceCombo.addItem("ভোলাগঞ্জ");
-            PlaceCombo.addItem("মালিনিছড়া");
-            PlaceCombo.addItem("লোভাছড়া");
-        }
-        if (ZilaCombo.getSelectedIndex() == 2) {
-            PlaceCombo.setEnabled(true);
-            PlaceCombo.removeAllItems();
-            PlaceCombo.addItem("বি টি আর আই");
-            PlaceCombo.addItem("লাউয়াছড়া");
-            PlaceCombo.addItem("মাধবকুণ্ড");
-            PlaceCombo.addItem("পারিকুন্ড");
-            PlaceCombo.addItem("হামহাম");
-        }
-        if (ZilaCombo.getSelectedIndex() == 3) {
-            PlaceCombo.setEnabled(true);
-            PlaceCombo.removeAllItems();
-            PlaceCombo.addItem("টাঙ্গুয়ার হাওড়");
-            PlaceCombo.addItem("নারায়ণতলা");
-            PlaceCombo.addItem("জাদুকাটা");
-        }
-        if (ZilaCombo.getSelectedIndex() == 4) {
-            PlaceCombo.setEnabled(true);
-            PlaceCombo.removeAllItems();
-            PlaceCombo.addItem("pore");
-            PlaceCombo.addItem("aro pore");
-            PlaceCombo.addItem("aro aro pore");
-        }
+  
     }//GEN-LAST:event_PlaceComboActionPerformed
 
     private void ZilaComboActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ZilaComboActionPerformed
@@ -215,8 +174,7 @@ public class Homepage extends javax.swing.JFrame {
     }//GEN-LAST:event_ZilaComboActionPerformed
 
     private void FinalGoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FinalGoActionPerformed
-
-        switch (PlaceCombo.getSelectedItem().toString()) {
+switch (PlaceCombo.getSelectedItem().toString()) {
             case "পাংথুমাই":
                 Pangthumai pang = new Pangthumai();
                 pang.setVisible(true);
@@ -227,9 +185,60 @@ public class Homepage extends javax.swing.JFrame {
                 bich.setVisible(true);
                 dispose();
                 break;
+            case "লক্ষনছড়া":
+                Lokkhonchora lokkho = new Lokkhonchora();
+                lokkho.setVisible(true);
+                dispose();
+                break;
+            case "করুমছড়া":
+                Korumchora korum = new Korumchora();
+                korum.setVisible(true);
+                dispose();
+                break;
+            case "জাফলং":
+                Jaflong jaf = new Jaflong();
+                jaf.setVisible(true);
+                dispose();
+                break;
+            case "সারিয়াঘাট":
+                Sharighat shari= new Sharighat();
+                shari.setVisible(true);
+                dispose();
+                break;
+            case "জৈন্তাপুর":
+                Jointapur jointa= new Jointapur();
+                jointa.setVisible(true);
+                dispose();
+                break;
+            case "রাতারগুল":
+                Ratargul rata= new Ratargul();
+                rata.setVisible(true);
+                dispose();
+                break;
+            case "ভোলাগঞ্জ":
+                Volagonj vola= new Volagonj();
+                vola.setVisible(true);
+                dispose();
+                break;
+            case "মালিনিছড়া":
+                 Malinichora mali= new Malinichora();
+                mali.setVisible(true);
+                dispose();
+                break;
+            case "লোভাছড়া":
+                 Lovachora lova= new Lovachora();
+                lova.setVisible(true);
+                dispose();
+                break;
+            case "বি টি আর আই":
+                 BTRI btri= new BTRI();
+                btri.setVisible(true);
+                dispose();
+                break;    
             default:
                 System.out.println("bbbb");
         }
+      
 
 
     }//GEN-LAST:event_FinalGoActionPerformed
