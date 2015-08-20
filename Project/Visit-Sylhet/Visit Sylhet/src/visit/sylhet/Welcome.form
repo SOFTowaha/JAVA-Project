@@ -69,14 +69,14 @@
                           <Component id="NameLabel" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="LabelField" min="-2" pref="257" max="-2" attributes="0"/>
-                              <Component id="jComboBox1" min="-2" pref="257" max="-2" attributes="0"/>
+                              <Component id="NameField" min="-2" pref="257" max="-2" attributes="0"/>
+                              <Component id="TownField" min="-2" pref="257" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Component id="NameLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="Go" min="-2" pref="95" max="-2" attributes="0"/>
+                  <Component id="GoButton" min="-2" pref="95" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
               <Group type="102" alignment="0" attributes="0">
@@ -92,22 +92,22 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <Component id="Image" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="35" pref="35" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="35" pref="35" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="1" attributes="0">
                               <Component id="NameLabel" min="-2" max="-2" attributes="0"/>
-                              <Component id="LabelField" min="-2" max="-2" attributes="0"/>
+                              <Component id="NameField" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="NameLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TownField" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                          <Component id="Go" min="-2" pref="74" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                          <Component id="GoButton" min="-2" pref="86" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -143,7 +143,7 @@
             <Property name="text" type="java.lang.String" value="&#x986;&#x9aa;&#x9a8;&#x9be;&#x9b0; &#x9a8;&#x9be;&#x9ae;&#x983;"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="LabelField">
+        <Component class="javax.swing.JTextField" name="NameField">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="24" style="1"/>
@@ -153,7 +153,7 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="LabelFieldActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NameFieldActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="NameLabel1">
@@ -170,7 +170,7 @@
             <Property name="text" type="java.lang.String" value="&#x986;&#x9aa;&#x9a8;&#x9be;&#x9b0; &#x9b6;&#x9b9;&#x9b0;&#x983; "/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JComboBox" name="jComboBox1">
+        <Component class="javax.swing.JComboBox" name="TownField">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Siyam Rupali" size="24" style="1"/>
@@ -189,7 +189,7 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="Go">
+        <Component class="javax.swing.JButton" name="GoButton">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="c8" green="8b" red="63" type="rgb"/>
@@ -203,7 +203,7 @@
             <Property name="text" type="java.lang.String" value="&#x99a;&#x9b2;&#x9c1;&#x9a8;"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="GoActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="GoButtonActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="AboutButton">
