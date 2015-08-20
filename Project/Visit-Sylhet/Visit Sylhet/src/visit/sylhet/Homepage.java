@@ -234,7 +234,42 @@ switch (PlaceCombo.getSelectedItem().toString()) {
                  BTRI btri= new BTRI();
                 btri.setVisible(true);
                 dispose();
-                break;    
+                break;
+            case "লাউয়াছড়া":
+                Lauachora lau= new Lauachora();
+                lau.setVisible(true);
+                dispose();
+                break; 
+            case "মাধবকুণ্ড":
+                Madhobkundo madhob= new Madhobkundo();
+                madhob.setVisible(true);
+                dispose();
+                break;  
+            case "পারিকুন্ড":
+                Parikundo pari= new Parikundo();
+                pari.setVisible(true);
+                dispose();
+                break;
+            case "হামহাম":
+                HumHum hum= new HumHum();
+                hum.setVisible(true);
+                dispose();
+                break;
+            case "টাঙ্গুয়ার হাওড়":
+                Tanguar tang= new Tanguar();
+                tang.setVisible(true);
+                dispose();
+                break;  
+            case "নারায়ণতলা":
+                Narayontola narayon= new Narayontola();
+                narayon.setVisible(true);
+                dispose();
+                break;
+            case "জাদুকাটা":
+                Jadukata jadu= new Jadukata();
+                jadu.setVisible(true);
+                dispose();
+                break;
             default:
                 System.out.println("bbbb");
         }
