@@ -32,10 +32,10 @@ public class Welcome extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         Image = new javax.swing.JLabel();
         NameLabel = new javax.swing.JLabel();
-        LabelField = new javax.swing.JTextField();
+        NameField = new javax.swing.JTextField();
         NameLabel1 = new javax.swing.JLabel();
-        jComboBox1 = new javax.swing.JComboBox();
-        Go = new javax.swing.JButton();
+        TownField = new javax.swing.JComboBox();
+        GoButton = new javax.swing.JButton();
         AboutButton = new javax.swing.JButton();
         CreditButton = new javax.swing.JButton();
 
@@ -56,11 +56,11 @@ public class Welcome extends javax.swing.JFrame {
         NameLabel.setForeground(new java.awt.Color(0, 0, 153));
         NameLabel.setText("আপনার নামঃ");
 
-        LabelField.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        LabelField.setForeground(new java.awt.Color(0, 102, 255));
-        LabelField.addActionListener(new java.awt.event.ActionListener() {
+        NameField.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        NameField.setForeground(new java.awt.Color(0, 102, 255));
+        NameField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                LabelFieldActionPerformed(evt);
+                NameFieldActionPerformed(evt);
             }
         });
 
@@ -69,16 +69,16 @@ public class Welcome extends javax.swing.JFrame {
         NameLabel1.setForeground(new java.awt.Color(0, 0, 153));
         NameLabel1.setText("আপনার শহরঃ ");
 
-        jComboBox1.setFont(new java.awt.Font("Siyam Rupali", 1, 24)); // NOI18N
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "নির্বাচন করুন", "চট্টগ্রাম", "ঢাকা", "খুলনা", "রাজশাহী", "রংপুর", "সিলেট", "বরিশাল" }));
+        TownField.setFont(new java.awt.Font("Siyam Rupali", 1, 24)); // NOI18N
+        TownField.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "নির্বাচন করুন", "চট্টগ্রাম", "ঢাকা", "খুলনা", "রাজশাহী", "রংপুর", "সিলেট", "বরিশাল" }));
 
-        Go.setBackground(new java.awt.Color(99, 139, 200));
-        Go.setFont(new java.awt.Font("Siyam Rupali", 1, 24)); // NOI18N
-        Go.setForeground(new java.awt.Color(255, 255, 255));
-        Go.setText("চলুন");
-        Go.addActionListener(new java.awt.event.ActionListener() {
+        GoButton.setBackground(new java.awt.Color(99, 139, 200));
+        GoButton.setFont(new java.awt.Font("Siyam Rupali", 1, 24)); // NOI18N
+        GoButton.setForeground(new java.awt.Color(255, 255, 255));
+        GoButton.setText("চলুন");
+        GoButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                GoActionPerformed(evt);
+                GoButtonActionPerformed(evt);
             }
         });
 
@@ -114,11 +114,11 @@ public class Welcome extends javax.swing.JFrame {
                         .addComponent(NameLabel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(LabelField, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(NameField, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(TownField, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addComponent(NameLabel1))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Go, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(GoButton, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
@@ -131,19 +131,19 @@ public class Welcome extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(Image)
-                .addGap(35, 35, 35)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(35, 35, 35)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(NameLabel)
-                            .addComponent(LabelField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(NameField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(NameLabel1)
-                            .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(10, 10, 10)
-                        .addComponent(Go, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(TownField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addGap(39, 39, 39)
+                        .addComponent(GoButton, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(AboutButton)
@@ -169,9 +169,9 @@ public class Welcome extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void LabelFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LabelFieldActionPerformed
+    private void NameFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NameFieldActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_LabelFieldActionPerformed
+    }//GEN-LAST:event_NameFieldActionPerformed
 
     private void CreditButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CreditButtonActionPerformed
 
@@ -183,7 +183,7 @@ public class Welcome extends javax.swing.JFrame {
 
     }//GEN-LAST:event_CreditButtonActionPerformed
 
-    private void GoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_GoActionPerformed
+    private void GoButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_GoButtonActionPerformed
         Homepage home = new Homepage();
         home.setVisible(true);
         home.setLocationRelativeTo(null);
@@ -192,7 +192,7 @@ public class Welcome extends javax.swing.JFrame {
         
         
         
-    }//GEN-LAST:event_GoActionPerformed
+    }//GEN-LAST:event_GoButtonActionPerformed
 
     private void AboutButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AboutButtonActionPerformed
         About about = new About();
@@ -240,12 +240,12 @@ public class Welcome extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton AboutButton;
     private javax.swing.JButton CreditButton;
-    private javax.swing.JButton Go;
+    private javax.swing.JButton GoButton;
     private javax.swing.JLabel Image;
-    private javax.swing.JTextField LabelField;
+    private javax.swing.JTextField NameField;
     private javax.swing.JLabel NameLabel;
     private javax.swing.JLabel NameLabel1;
-    private javax.swing.JComboBox jComboBox1;
+    private javax.swing.JComboBox TownField;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

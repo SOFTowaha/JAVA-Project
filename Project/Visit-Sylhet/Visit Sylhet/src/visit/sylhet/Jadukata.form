@@ -43,42 +43,25 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< HEAD
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="360" max="-2" attributes="0"/>
-                  <Component id="PangthumaiLabel" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="315" max="32767" attributes="0"/>
-=======
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="390" max="32767" attributes="0"/>
+                  <EmptySpace pref="419" max="32767" attributes="0"/>
                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="285" max="-2" attributes="0"/>
->>>>>>> origin/master
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-<<<<<<< HEAD
-                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                  <Component id="PangthumaiLabel" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="535" max="32767" attributes="0"/>
-=======
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace pref="550" max="32767" attributes="0"/>
->>>>>>> origin/master
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-<<<<<<< HEAD
-        <Component class="javax.swing.JLabel" name="PangthumaiLabel">
-=======
         <Component class="javax.swing.JLabel" name="jLabel1">
->>>>>>> origin/master
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Siyam Rupali" size="24" style="1"/>
@@ -86,7 +69,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="&#x9ac;&#x9bf;&#x99b;&#x9be;&#x9a8;&#x9be;&#x995;&#x9be;&#x9a8;&#x9cd;&#x9a6;&#x9bf;"/>
+            <Property name="text" type="java.lang.String" value="&#x99c;&#x9be;&#x9a6;&#x9c1;&#x995;&#x9be;&#x99f;&#x9be;"/>
           </Properties>
         </Component>
       </SubComponents>

@@ -43,10 +43,17 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="349" max="-2" attributes="0"/>
                   <Component id="LokkhonchoraLabel" min="-2" max="-2" attributes="0"/>
                   <EmptySpace pref="364" max="32767" attributes="0"/>
+=======
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="353" max="32767" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="337" max="-2" attributes="0"/>
+>>>>>>> origin/master
               </Group>
           </Group>
         </DimensionLayout>
@@ -54,14 +61,22 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                   <Component id="LokkhonchoraLabel" min="-2" max="-2" attributes="0"/>
+=======
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+>>>>>>> origin/master
                   <EmptySpace pref="550" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
+<<<<<<< HEAD
         <Component class="javax.swing.JLabel" name="LokkhonchoraLabel">
+=======
+        <Component class="javax.swing.JLabel" name="jLabel1">
+>>>>>>> origin/master
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Siyam Rupali" size="24" style="1"/>
@@ -69,7 +84,11 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
+<<<<<<< HEAD
             <Property name="text" type="java.lang.String" value="&#x9b8;&#x9be;&#x9b0;&#x9bf;&#x998;&#x9be;&#x99f;"/>
+=======
+            <Property name="text" type="java.lang.String" value="&#x9b8;&#x9be;&#x9b0;&#x9bf;&#x9df;&#x9be;&#x998;&#x9be;&#x99f;"/>
+>>>>>>> origin/master
           </Properties>
         </Component>
       </SubComponents>

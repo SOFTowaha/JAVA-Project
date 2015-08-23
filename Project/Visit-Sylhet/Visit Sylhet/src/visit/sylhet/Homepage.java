@@ -114,7 +114,11 @@ public class Homepage extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void PlaceComboActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PlaceComboActionPerformed
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> origin/master
     }//GEN-LAST:event_PlaceComboActionPerformed
 
     private void ZilaComboActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ZilaComboActionPerformed
@@ -170,8 +174,7 @@ public class Homepage extends javax.swing.JFrame {
     }//GEN-LAST:event_ZilaComboActionPerformed
 
     private void FinalGoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FinalGoActionPerformed
-
-        switch (PlaceCombo.getSelectedItem().toString()) {
+switch (PlaceCombo.getSelectedItem().toString()) {
             case "পাংথুমাই":
                 Pangthumai pang = new Pangthumai();
                 pang.setVisible(true);
@@ -182,17 +185,105 @@ public class Homepage extends javax.swing.JFrame {
                 bich.setVisible(true);
                 dispose();
                 break;
+<<<<<<< HEAD
  
             case "লক্ষণছড়া":
+=======
+            case "লক্ষনছড়া":
+>>>>>>> origin/master
                 Lokkhonchora lokkho = new Lokkhonchora();
                 lokkho.setVisible(true);
                 dispose();
                 break;
+<<<<<<< HEAD
                 
                 
+=======
+            case "করুমছড়া":
+                Korumchora korum = new Korumchora();
+                korum.setVisible(true);
+                dispose();
+                break;
+            case "জাফলং":
+                Jaflong jaf = new Jaflong();
+                jaf.setVisible(true);
+                dispose();
+                break;
+            case "সারিয়াঘাট":
+                Sharighat shari= new Sharighat();
+                shari.setVisible(true);
+                dispose();
+                break;
+            case "জৈন্তাপুর":
+                Jointapur jointa= new Jointapur();
+                jointa.setVisible(true);
+                dispose();
+                break;
+            case "রাতারগুল":
+                Ratargul rata= new Ratargul();
+                rata.setVisible(true);
+                dispose();
+                break;
+            case "ভোলাগঞ্জ":
+                Volagonj vola= new Volagonj();
+                vola.setVisible(true);
+                dispose();
+                break;
+            case "মালিনিছড়া":
+                 Malinichora mali= new Malinichora();
+                mali.setVisible(true);
+                dispose();
+                break;
+            case "লোভাছড়া":
+                 Lovachora lova= new Lovachora();
+                lova.setVisible(true);
+                dispose();
+                break;
+            case "বি টি আর আই":
+                 BTRI btri= new BTRI();
+                btri.setVisible(true);
+                dispose();
+                break;
+            case "লাউয়াছড়া":
+                Lauachora lau= new Lauachora();
+                lau.setVisible(true);
+                dispose();
+                break; 
+            case "মাধবকুণ্ড":
+                Madhobkundo madhob= new Madhobkundo();
+                madhob.setVisible(true);
+                dispose();
+                break;  
+            case "পারিকুন্ড":
+                Parikundo pari= new Parikundo();
+                pari.setVisible(true);
+                dispose();
+                break;
+            case "হামহাম":
+                HumHum hum= new HumHum();
+                hum.setVisible(true);
+                dispose();
+                break;
+            case "টাঙ্গুয়ার হাওড়":
+                Tanguar tang= new Tanguar();
+                tang.setVisible(true);
+                dispose();
+                break;  
+            case "নারায়ণতলা":
+                Narayontola narayon= new Narayontola();
+                narayon.setVisible(true);
+                dispose();
+                break;
+            case "জাদুকাটা":
+                Jadukata jadu= new Jadukata();
+                jadu.setVisible(true);
+                dispose();
+                break;
+>>>>>>> origin/master
             default:
                 System.out.println("bbbb");
         }
+      
 
 
     }//GEN-LAST:event_FinalGoActionPerformed
