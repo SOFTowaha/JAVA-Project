@@ -115,13 +115,66 @@ public class Homepage extends javax.swing.JFrame {
 
     private void PlaceComboActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PlaceComboActionPerformed
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
   
 >>>>>>> origin/master
     }//GEN-LAST:event_PlaceComboActionPerformed
+=======
+        // TODO add your handling code here:
+    }//GEN-LAST:event_PlaceComboActionPerformed
 
     private void ZilaComboActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ZilaComboActionPerformed
+        PlaceCombo.setFont(new java.awt.Font("Siyam Rupali", 1, 24));
+        if (ZilaCombo.getSelectedIndex() == 0) {
+            PlaceCombo.setEnabled(false);
+        }
+        if (ZilaCombo.getSelectedIndex() == 1) {
+            PlaceCombo.setEnabled(true);
+            PlaceCombo.removeAllItems();
+            PlaceCombo.addItem("পাংথুমাই");
+            PlaceCombo.addItem("বিছানাকান্দি");
+            PlaceCombo.addItem("লক্ষনছড়া");
+            PlaceCombo.addItem("করুমছড়া");
+            PlaceCombo.addItem("জাফলং");
+            PlaceCombo.addItem("সারিয়াঘাট");
+            PlaceCombo.addItem("জৈন্তাপুর");
+            PlaceCombo.addItem("রাতারগুল");
+            PlaceCombo.addItem("ভোলাগঞ্জ");
+            PlaceCombo.addItem("মালিনিছড়া");
+            PlaceCombo.addItem("লোভাছড়া");
+        }
+        if (ZilaCombo.getSelectedIndex() == 2) {
+            PlaceCombo.setEnabled(true);
+            PlaceCombo.removeAllItems();
+            PlaceCombo.addItem("বি টি আর আই");
+            PlaceCombo.addItem("লাউয়াছড়া");
+            PlaceCombo.addItem("মাধবকুণ্ড");
+            PlaceCombo.addItem("পারিকুন্ড");
+            PlaceCombo.addItem("হামহাম");
+        }
+        if (ZilaCombo.getSelectedIndex() == 3) {
+            PlaceCombo.setEnabled(true);
+            PlaceCombo.removeAllItems();
+            PlaceCombo.addItem("টাঙ্গুয়ার হাওড়");
+            PlaceCombo.addItem("নারায়ণতলা");
+            PlaceCombo.addItem("জাদুকাটা");
+        }
+        if (ZilaCombo.getSelectedIndex() == 4) {
+            PlaceCombo.setEnabled(true);
+            PlaceCombo.removeAllItems();
+            PlaceCombo.addItem("pore");
+            PlaceCombo.addItem("aro pore");
+            PlaceCombo.addItem("aro aro pore");
+        }
+>>>>>>> parent of 4ee4780... Done Minor Change
+
+
+    }//GEN-LAST:event_ZilaComboActionPerformed
+
+    private void FinalGoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FinalGoActionPerformed
+
         PlaceCombo.setFont(new java.awt.Font("Siyam Rupali", 1, 24));
         if (ZilaCombo.getSelectedIndex() == 0) {
             PlaceCombo.setEnabled(false);
@@ -169,12 +222,16 @@ public class Homepage extends javax.swing.JFrame {
             PlaceCombo.addItem("aro pore");
             PlaceCombo.addItem("aro aro pore");
         }
+<<<<<<< HEAD
 
 
     }//GEN-LAST:event_ZilaComboActionPerformed
 
     private void FinalGoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FinalGoActionPerformed
 switch (PlaceCombo.getSelectedItem().toString()) {
+=======
+        switch (PlaceCombo.getSelectedItem().toString()) {
+>>>>>>> parent of 4ee4780... Done Minor Change
             case "পাংথুমাই":
                 Pangthumai pang = new Pangthumai();
                 pang.setVisible(true);
